@@ -13,6 +13,6 @@ function generateFibonacci() {
       fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
     }
     
-    output.innerHTML = "<p>Fibonacci Series:</p><p>" + fibonacci.join(", ") + "</p>";
+    output.innerHTML = "<p>Fibonacci Sequence:</p><p>" + fibonacci.join(", ") + "</p>";
   }
   
